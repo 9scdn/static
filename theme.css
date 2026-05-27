@@ -1,0 +1,156 @@
+html[data-theme="dark"] body {
+    background: #0e1117;
+}
+
+html[data-theme="dark"] #main {
+    background: #131821 !important;
+    color: #d9dee8 !important;
+    min-height: 70vh;
+    transition: background-color .2s ease-in-out, color .2s ease-in-out;
+}
+
+html[data-theme="dark"] #main a,
+html[data-theme="dark"] #main .color-primary {
+    color: #8dbbff !important;
+}
+
+html[data-theme="dark"] #main .color-black,
+html[data-theme="dark"] #main .container-title,
+html[data-theme="dark"] #main .title,
+html[data-theme="dark"] #main .text-title {
+    color: #f1f4f8 !important;
+}
+
+html[data-theme="dark"] #main .color-secondary,
+html[data-theme="dark"] #main .color-666,
+html[data-theme="dark"] #main .text-secondary,
+html[data-theme="dark"] #main .text-sub-title,
+html[data-theme="dark"] #main small {
+    color: #aab4c3 !important;
+}
+
+html[data-theme="dark"] #main .bg-white,
+html[data-theme="dark"] #main .bg-light,
+html[data-theme="dark"] #main .navTab,
+html[data-theme="dark"] #main .cateContainer,
+html[data-theme="dark"] #main .mobileCateContainer,
+html[data-theme="dark"] #main .colVideoList,
+html[data-theme="dark"] #main .colPhotoList,
+html[data-theme="dark"] #main .colNovelList,
+html[data-theme="dark"] #main .novelElem,
+html[data-theme="dark"] #main .videoElem,
+html[data-theme="dark"] #main .priceContent,
+html[data-theme="dark"] #main .priceContent .tab-pane,
+html[data-theme="dark"] #main .priceContent .row,
+html[data-theme="dark"] #main .priceContent [class*="col-lg-"],
+html[data-theme="dark"] #main .priceContent .cell,
+html[data-theme="dark"] #main .priceContent .text-center,
+html[data-theme="dark"] #main .upgradeStep,
+html[data-theme="dark"] #main .upgradeDesc,
+html[data-theme="dark"] #main .user_main,
+html[data-theme="dark"] #main .card,
+html[data-theme="dark"] #main .list-group-item,
+html[data-theme="dark"] #main .file-upload {
+    background: #1b222d !important;
+    color: #d9dee8 !important;
+    border-color: #323b49 !important;
+    box-shadow: none !important;
+}
+
+html[data-theme="dark"] #main .future .cell {
+    background: transparent !important;
+    color: #d9dee8 !important;
+    border-color: transparent !important;
+    box-shadow: none !important;
+}
+
+html[data-theme="dark"] #main .cateContainer li,
+html[data-theme="dark"] #main .mobileCateContainer .item,
+html[data-theme="dark"] #main .navTab a,
+html[data-theme="dark"] #main .pagination .page-link,
+html[data-theme="dark"] #main .form-control,
+html[data-theme="dark"] #main .display.d-block,
+html[data-theme="dark"] #main .badge-light {
+    background: #222a36 !important;
+    color: #d9dee8 !important;
+    border-color: #3a4554 !important;
+}
+
+html[data-theme="dark"] #main .active,
+html[data-theme="dark"] #main .navTab a.active,
+html[data-theme="dark"] #main .cateContainer li.active,
+html[data-theme="dark"] #main .mobileCateContainer .active {
+    background: #2b3d59 !important;
+    color: #ffffff !important;
+    border-color: #5f8fd6 !important;
+}
+
+html[data-theme="dark"] #main .alert {
+    background: #1b222d !important;
+    color: #d9dee8 !important;
+    border-color: #323b49 !important;
+}
+
+html[data-theme="dark"] #main .alert-success {
+    background: #183226 !important;
+    color: #c7f0da !important;
+    border-color: #28533e !important;
+}
+
+html[data-theme="dark"] #main .alert-warning {
+    background: #3a3018 !important;
+    color: #f3dfa7 !important;
+    border-color: #5f4c1d !important;
+}
+
+html[data-theme="dark"] #main .alert-danger,
+html[data-theme="dark"] #main .list-group-item-danger {
+    background: #3a2027 !important;
+    color: #f0c9d0 !important;
+    border-color: #673541 !important;
+}
+
+html[data-theme="dark"] #main .text-dark {
+    color: #d9dee8 !important;
+}
+
+html[data-theme="dark"] #main .text-danger,
+html[data-theme="dark"] #main .btn-outline-danger {
+    color: #ff8fa3 !important;
+}
+
+html[data-theme="dark"] #main .btn-outline-danger {
+    border-color: #c95d70 !important;
+}
+
+html[data-theme="dark"] #main .btn-outline-danger:hover {
+    background: #4a2530 !important;
+    color: #ffffff !important;
+}
+
+html[data-theme="dark"] #main img,
+html[data-theme="dark"] #main video {
+    filter: none !important;
+}
+
+#header .nav-second .theme-toggle-desktop,
+.Mobile-Header .Menu .theme-toggle-mobile-item {
+    border: 0;
+    background: transparent;
+    color: #f3f6fb;
+    cursor: pointer;
+    font: inherit;
+}
+
+#header .nav-second .theme-toggle-desktop .theme-toggle-icon {
+    margin-right: 6px;
+}
+
+.Mobile-Header .Menu .theme-toggle-mobile-item .icon {
+    width: 20px;
+}
+
+#header .nav-second .theme-toggle-desktop:hover,
+.Mobile-Header .Menu .theme-toggle-mobile-item:hover {
+    color: #ffffff;
+}
