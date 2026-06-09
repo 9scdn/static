@@ -8,7 +8,13 @@
             $button.attr('aria-pressed', isDark ? 'true' : 'false');
             $button.attr('title', isDark ? '切换到亮色' : '切换到暗色');
             $button.find('i').removeClass('fa-sun fa-moon').addClass(isDark ? 'fa-sun' : 'fa-moon');
-            $button.find('.theme-toggle-label').text(isDark ? '亮色' : '暗色');
+            var label = isDark ? '亮色' : '暗色';
+            var $label = $button.find('.theme-toggle-label');
+            if ($label.length) {
+                $label.text(label);
+            } else {
+                $button.text(label);
+            }
         });
     }
 

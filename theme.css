@@ -133,25 +133,16 @@ html[data-theme="dark"] #main video {
     filter: none !important;
 }
 
-#header .new-nav-first .options .theme-toggle-desktop {
+#footer .footer-theme-toggle {
     border: 0;
     background: transparent;
-    color: #f3f6fb;
+    color: inherit;
     cursor: pointer;
     font: inherit;
-    width: 34px;
-    height: 34px;
-    min-width: 34px;
     padding: 0;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
+    vertical-align: baseline;
 }
 
-#header .new-nav-first .options .theme-toggle-desktop {
-    margin-right: 10px;
-}
-
-#header .new-nav-first .options .theme-toggle-desktop:hover {
-    color: #ffffff;
+#footer .footer-theme-toggle:hover {
+    color: #ed2333;
 }
