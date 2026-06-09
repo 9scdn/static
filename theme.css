@@ -133,8 +133,7 @@ html[data-theme="dark"] #main video {
     filter: none !important;
 }
 
-#header .new-nav-first .options .theme-toggle-desktop,
-.Mobile-Header .Header-Actions .theme-toggle-mobile {
+#header .new-nav-first .options .theme-toggle-desktop {
     border: 0;
     background: transparent;
     color: #f3f6fb;
@@ -153,11 +152,6 @@ html[data-theme="dark"] #main video {
     margin-right: 10px;
 }
 
-.Mobile-Header .Header-Actions {
-    gap: 12px;
-}
-
-#header .new-nav-first .options .theme-toggle-desktop:hover,
-.Mobile-Header .Header-Actions .theme-toggle-mobile:hover {
+#header .new-nav-first .options .theme-toggle-desktop:hover {
     color: #ffffff;
 }
