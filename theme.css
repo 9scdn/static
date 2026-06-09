@@ -133,24 +133,31 @@ html[data-theme="dark"] #main video {
     filter: none !important;
 }
 
-#header .nav-second .theme-toggle-desktop,
-.Mobile-Header .Menu .theme-toggle-mobile-item {
+#header .new-nav-first .options .theme-toggle-desktop,
+.Mobile-Header .Header-Actions .theme-toggle-mobile {
     border: 0;
     background: transparent;
     color: #f3f6fb;
     cursor: pointer;
     font: inherit;
+    width: 34px;
+    height: 34px;
+    min-width: 34px;
+    padding: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 
-#header .nav-second .theme-toggle-desktop .theme-toggle-icon {
-    margin-right: 6px;
+#header .new-nav-first .options .theme-toggle-desktop {
+    margin-right: 10px;
 }
 
-.Mobile-Header .Menu .theme-toggle-mobile-item .icon {
-    width: 20px;
+.Mobile-Header .Header-Actions {
+    gap: 12px;
 }
 
-#header .nav-second .theme-toggle-desktop:hover,
-.Mobile-Header .Menu .theme-toggle-mobile-item:hover {
+#header .new-nav-first .options .theme-toggle-desktop:hover,
+.Mobile-Header .Header-Actions .theme-toggle-mobile:hover {
     color: #ffffff;
 }
